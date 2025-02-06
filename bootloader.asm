@@ -20,6 +20,8 @@ protected_mode:
     mov rdi, 2
     call load_kernel
     jmp 0x10000
+
+
 load_kernel:
     mov ah, 0x02
     mov al, 1
@@ -38,6 +40,7 @@ gdt_descriptor:
     dw 0
     dd gdt_start
 gdt_end:
+
 
 TIMES 510 - ($ - $$) DB 0
 DW 0xAA55
