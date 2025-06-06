@@ -60,7 +60,3 @@ This project is licensed under the [MIT License](LICENSE).
 ## 🙏 Acknowledgements
 
 Special thanks to the OSDev community and all contributors to open source bootloader and OS projects
-
----
-
-Let me know if you want further adjustments or want to highlight anything else!
